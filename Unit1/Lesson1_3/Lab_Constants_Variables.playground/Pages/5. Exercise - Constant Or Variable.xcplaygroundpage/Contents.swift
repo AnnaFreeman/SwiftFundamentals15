@@ -8,9 +8,15 @@
 - Month created: The month the post was created represented by a number between 1 and 12
 - Day created: The day of the month the post was created
  
- For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. Be sure to use proper naming conventions.
+ For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. 
+Be sure to use proper naming conventions.
  */
 
+var likes = 4
+var comments = 2
+let year = 2026
+let month = 10
+let day = 26
 
 /*:
 [Previous](@previous)  |  page 5 of 10  |  [Next: App Exercise - Fitness Tracker: Constant or Variable?](@next)
