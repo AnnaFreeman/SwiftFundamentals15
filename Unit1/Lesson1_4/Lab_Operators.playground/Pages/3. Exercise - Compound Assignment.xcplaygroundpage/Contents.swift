@@ -1,12 +1,20 @@
 /*:
 ## Exercise - Compound Assignment
  
- Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
+ Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. 
+Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
  */
 
+var ten = 10
+print(ten)
+var ten = ten + 5
+print(ten)
+var ten = ten*2
+print(ten)
 
 /*:
- Create a variable called `pennyBank` that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your penny bank.
+ Create a variable called `pennyBank` that begins at 0. You will use this to keep track of money you earn and spend. 
+For each point below, use the right compound assignment operator to update the balance in your penny bank.
  
 - Your neighbor gives you 10 dollars for mowing her lawn
 - You earn 20 more dollars throughout the week doing odd jobs
@@ -16,6 +24,19 @@
  
  Print the balance of your penny bank after each step.
  */
+
+var pennyBank = 0
+print(pennyBank)
+pennyBank = pennyBank + 10
+print(pennyBank)
+pennyBank = pennyBank +20
+print(pennyBank)
+pennyBank = pennyBank/2
+print(pennyBank)
+pennyBank = pennyBank*3
+print(pennyBank)
+pennyBank = pennyBank-3
+print(pennyBank)
 
 
 /*:
