@@ -16,7 +16,7 @@ let hasFish = true
 let hasPizza = false
 let hasVegan = true
 
-if hasFish = true AND hasVegan = true {print("Let's go!"}
+if hasFish = true && hasVegan = true {print("Let's go!"}
 
 //:  Imagine you're trying to decide whether or not to go on a walk. You decide that you'll go on a walk if it's not raining or if it's 
                                        82 degress or warmer and sunny out. Create a constant `isNiceWeather` that is equal to an 
@@ -27,7 +27,7 @@ let temp = 82
 let isRaining = true
 let isSunny = true
 
-if isSunny=true AND temp >= 82 {
+if isSunny=true && temp >= 82 {
  print("I'm going for a walk!")
 }
                                        
