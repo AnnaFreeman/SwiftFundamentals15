@@ -3,9 +3,11 @@
  
  >These exercises reinforce Swift concepts in the context of a fitness tracking app.
  
- If you completed the Target Heart Rate exercise, you showed different statements to the user based on whether or not the user's heart rate was inside of a target zone. Now you decide to just tell them what zone they are in rather than tell them what zone to be in.
+ If you completed the Target Heart Rate exercise, you showed different statements to the user based on whether or not the user's heart rate was 
+inside of a target zone. Now you decide to just tell them what zone they are in rather than tell them what zone to be in.
  
- Write a switch statement that will print different statements based on what range `currentHR` falls into. Below is a list of ranges and the associated statements
+ Write a switch statement that will print different statements based on what range `currentHR` falls into. Below is a list of ranges and the 
+associated statements
  
 - 100-120: "You are in the Very Light zone. Activity in this zone helps with recovery."
 - 121-140: "You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning."
