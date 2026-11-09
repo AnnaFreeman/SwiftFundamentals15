@@ -1,1 +1,22 @@
+What are three of the primary responsibilities of a UIView object?
 
+An object in UIView typically includes a short description, a declaration (the name that 
+defines it), and a discussion, with more in-depth information.
+
+What does documentation call a view that's embedded in another view?
+
+Collection views are nested inside one another.
+
+What does documentation call the parent view that's embedding the other view?
+
+This may be a View Controller.
+
+What is a view's frame?
+
+UIView
+
+How is a view's bounds different from its frame?
+
+Bounds are measured from the top left of the box; mathematically the top left is at (0,0).
+Frame is measured with context included, so x, and y values would depend on the box's 
+placement on a page.
