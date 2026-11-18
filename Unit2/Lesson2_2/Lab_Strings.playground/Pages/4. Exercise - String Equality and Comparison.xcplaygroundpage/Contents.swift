@@ -1,18 +1,34 @@
 /*:
 ## Exercise - String Equality and Comparison
  
- Create two constants, `nameInCaps` and `name`. Assign `nameInCaps` your name as a string literal with proper capitalization. Assign `name` your name as a string literal in all lowercase. Write an if-else statement that checks to see if `nameInCaps` and `name` are the same. If they are, print "The two strings are equal," otherwise print "The two strings are not equal."
+Create two constants, `nameInCaps` and `name`. Assign `nameInCaps` 
+your name as a string literal with proper capitalization. Assign 
+`name` your name as a string literal in all lowercase. Write an 
+if-else statement that checks to see if `nameInCaps` and `name` are
+the same. If they are, print "The two strings are equal," otherwise 
+print "The two strings are not equal."
  */
 
+let nameInCaps: String = "Anna Freeman";
+let name: String = "anna freeman";
+if nameInCaps == name {Text("The two strings are equal.")}
+else {Text("The two strings are not equal.")
 
 /*:
- Write a new if-else statement that also checks to see if `nameInCaps` and `name` are the same. However, this time use the `lowercased()` method on each constant to compare the lowercase version of the strings. If they are equal, print the following statement using string interpolations:
+ Write a new if-else statement that also checks to see if `nameInCaps`
+      and `name` are the same. However, this time use the `lowercased()
+      ` method on each constant to compare the lowercase version of 
+      the strings. If they are equal, print the following statement 
+      using string interpolations:
  
-- "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT LOWERCASED VERSION OF `name` HERE> are the same."
+- "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT 
+      LOWERCASED VERSION OF `name` HERE> are the same."
  
- If they are not equal, print the following statement using string interpolation:
+ If they are not equal, print the following statement using string 
+      interpolation:
  
-- "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT LOWERCASED VERSION OF `name` HERE> are not the same."
+- "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT 
+      LOWERCASED VERSION OF `name` HERE> are not the same."
  */
 
 
