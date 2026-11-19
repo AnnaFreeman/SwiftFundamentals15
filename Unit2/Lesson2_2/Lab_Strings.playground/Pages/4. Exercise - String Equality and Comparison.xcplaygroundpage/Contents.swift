@@ -49,11 +49,15 @@ if junior.contains("Jr."){Text("We found a second generation name!")}
 import Foundation
 let textToSearchThrough = "To be, or not to be--that is the question"
 let textToSearchFor = "to be, or not to be"
-            
+           
+            if textToSearchThrough.lowercased().contains(textToSearchFor.lowercased()) {
+             Text("I found it!")}
 
 
-//:  Print to the console the number of characters in your name by using the `count` property on `name`.
+//:  Print to the console the number of characters in your name by
+ //           using the `count` property on `name`.
 
+            print(name.count);
 
 /*:
 [Previous](@previous)  |  page 4 of 5  |  [Next: App Exercise - Password Entry and User Search](@next)
